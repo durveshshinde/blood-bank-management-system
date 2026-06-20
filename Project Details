@@ -1,0 +1,19 @@
+🩸 Blood Donor Management System 📌 Overview
+
+A web-based application that helps users find blood donors quickly and efficiently. It allows users to register as donors and search for blood based on group and location.
+
+🎯 Features Donor registration and login Search donors by blood group and city View donor details Admin can manage donor records
+
+🛠️ Technologies Used Frontend: HTML, CSS, JavaScript
+
+Backend: Java (Servlets, JSP), JDBC
+
+Database: MySQL
+
+Tools: Eclipse IDE, Apache Tomcat
+
+⚙️ How It Works User registers as a donor Data is stored in MySQL database Users search donors based on requirements Admin manages records
+
+💡 Purpose To provide a fast and reliable way to connect blood donors with patients during emergencies.
+
+👨‍💻 Author Durvesh Shinde
