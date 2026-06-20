@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Update Profile</title>
+
+<link
+	href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+	rel="stylesheet">
+
+<style>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	display: flex;
+	height: 100vh;
+	background: linear-gradient(135deg, #ff416c, #ff4b2b);
+	color: white;
+}
+
+/* SIDEBAR */
+.sidebar {
+	width: 240px;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.6);
+	padding: 25px;
+	position: fixed;
+}
+
+.sidebar h2 {
+	margin-bottom: 30px;
+}
+
+.sidebar a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	margin: 10px 0;
+	border-radius: 8px;
+	transition: 0.3s;
+}
+
+.sidebar a:hover {
+	background: rgba(255, 255, 255, 0.2);
+}
+
+/* MAIN */
+.main {
+	margin-left: 240px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* CARD */
+.card {
+	width: 420px;
+	background: rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(12px);
+	padding: 30px;
+	border-radius: 20px;
+	text-align: center;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* TITLE */
+.card h2 {
+	margin-bottom: 20px;
+}
+
+/* INPUT */
+input {
+	width: 100%;
+	padding: 12px;
+	margin: 10px 0;
+	border: none;
+	border-radius: 25px;
+	outline: none;
+}
+
+/* BUTTON */
+button {
+	width: 100%;
+	padding: 12px;
+	border: none;
+	border-radius: 25px;
+	background: white;
+	color: #ff416c;
+	font-weight: 600;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+button:hover {
+	background: #ffe5e5;
+}
+
+/* RESPONSIVE */
+@media ( max-width :768px) {
+	.sidebar {
+		display: none;
+	}
+	.main {
+		margin-left: 0;
+		padding: 20px;
+	}
+}
+</style>
+</head>
+
+<body>
+
+	<!-- SIDEBAR -->
+	<div class="sidebar">
+		<h2>🩸 Blood Bank</h2>
+		

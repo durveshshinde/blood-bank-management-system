@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Stock</title>
+
+<link
+	href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+	rel="stylesheet">
+
+<style>
+/* SAME CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins';
+}
+
+body {
+	display: flex;
+	height: 100vh;
+	background: linear-gradient(135deg, #ff416c, #ff4b2b);
+	color: white;
+}
+
+.sidebar {
+	width: 240px;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.6);
+	padding: 25px;
+	position: fixed;
+}
+
+.sidebar a {
+	display: block;
+	color: white;
+	margin: 10px 0;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 8px;
+}
+
+.sidebar a:hover {
+	background: rgba(255, 255, 255, 0.2);
+}
+
+.main {
+	margin-left: 240px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	width: 500px;
+	background: rgba(255, 255, 255, 0.15);
+	padding: 30px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+table {
+	width: 100%;
+	background: white;
+	color: black;
+	border-radius: 10px;
+}
+
+th, td {
+	padding: 10px;
+}
+</style>
+</head>
+
+<body>
+
+	<div class="sidebar">
+		<h2>🩸 Blood Bank</h2>
+		<a href="dashboard.html">Dashboard</a>
+	</div>
+
+	<div class="main">
+		<div class="card">
+
+			<h2>📊 Blood Stock</h2>
+
+			<table>
+				<tr>
+					<th>Group</th>
+					<th>Units</th>
+				</tr>
+				<tr>
+					<td>A+</td>
+					<td>20</td>
+				</tr>
+				<tr>
+					<td>O+</td>
+					<td>30</td>
+				</tr>
+			</table>
+
+		</div>
+	</div>
+
+</body>
+</html>
